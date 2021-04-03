@@ -38,6 +38,7 @@ export function TaskList() {
 
   function handleRemoveTask(id: number) {
     const newTasks = tasks.filter(task => task.id !== id);
+
     setTasks(newTasks);
   }
 
